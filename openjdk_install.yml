@@ -1,3 +1,4 @@
+---
 - name: Install OpenJDK11
   hosts: all
   become: true
