@@ -1,0 +1,6 @@
+- name: Install OpenJDK11
+  hosts: all
+  become: true
+  tasks:
+  - name: Installing OpenJDK11
+    yum: name=java-11-openjdk-devel
